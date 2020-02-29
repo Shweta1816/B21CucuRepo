@@ -1,9 +1,9 @@
 package com.basic.MyGoogleRestAssured;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.Assert;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -49,8 +49,8 @@ public class MyStepDefSeleCucu {
 				result=false;
 				msg=msg+" documentation tab missing";
 			}
-			Assert.assertTrue(result, msg);
-
+			//Assert.assertTrue(result, msg);
+			Assert.assertTrue(result);
 			
 		}
 
