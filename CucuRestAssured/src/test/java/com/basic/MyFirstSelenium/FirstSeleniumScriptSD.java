@@ -15,7 +15,7 @@ public class FirstSeleniumScriptSD {
 	
 	@Given("^User Opens seleniumhq website$")
 	public void User_Opens_seleniumhq_website11(){
-		System.setProperty("webdriver.chrome.driver","D:\\Training\\TrainingContent\\SeleniumJars_Software\\chromedriver_win32_B39\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","E:\\Selenium contents\\chromedriver_win32_B39\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://www.seleniumhq.org/");
 	}
